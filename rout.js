@@ -3,7 +3,7 @@ const router = express.Router();
 
 
 router.get('/', (req, res) => {
-    res.send('Это только мой мир!');
+    res.send('server is on');
 });
 
 module.exports = router;
